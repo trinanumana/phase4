@@ -1,0 +1,55 @@
+body {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("image/bckgrnd.jpeg");
+  cursor: crosshair;
+}
+::selection {
+	background: #8C5FAB; 
+}
+
+.header {
+  height: 20%;
+  width: 100%;
+  border-style: dotted;
+  border-color: #006C7F;
+}
+
+.main {
+  display: flex;
+  height: 80%;
+  width: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 30%;
+}
+
+.puzzleholder {
+  height: 100%;
+  width: 40%;
+}
+
+.center-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.puzpic {
+	max-height: calc(100%/3);
+	max-width: calc(100%/3);
+	margin: 0.1%;
+}
+
+.puzpic:hover {
+	filter: opacity(50%);
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
