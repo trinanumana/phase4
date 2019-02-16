@@ -5,6 +5,7 @@ body {
   background-image: url("image/bckgrnd.jpeg");
   cursor: crosshair;
 }
+
 ::selection {
 	background: #8C5FAB; 
 }
@@ -39,9 +40,12 @@ body {
 	justify-content: center;
 }
 
+.headerpic {
+	max-height: 100%;
+	max-width: 100%;
+}
+
 .puzpic {
-	max-height: calc(100%/3);
-	max-width: calc(100%/3);
 	margin: 0.1%;
 }
 
@@ -50,6 +54,6 @@ body {
 }
 
 img {
-	max-height: 100%;
-	max-width: 100%;
+	max-height: calc(100%/3);
+	max-width: calc(100%/3);
 }
